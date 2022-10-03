@@ -17,7 +17,7 @@
 		<br><br>
 			<div class="container">
 			<% String ctype = request.getParameter("ctype"); %>
-				<h1> Shop for <%= ctype %></h1>
+				<h1> Shop for <%= ctype %> shoes</h1>
 			</div>
 	</section>
 	<!-- End Banner Area -->
