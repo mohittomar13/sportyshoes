@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -15,7 +18,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Karma Shop</title>
+	<title>SportyShoes</title>
 	<!--
 		CSS
 		============================================= -->
@@ -40,7 +43,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light main_box">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<a class="navbar-brand logo_h" href="index.jsp"><img src="img/logo.png" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -50,30 +53,30 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Men</a></li>
+							<li class="nav-item active"><a class="nav-link" href="index.jsp">Men</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Women</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
-									<li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
-									<li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
-									<li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
+									<li class="nav-item"><a class="nav-link" href="category.jsp">Shop Category</a></li>
+									<li class="nav-item"><a class="nav-link" href="single-product.jsp">Product Details</a></li>
+									<li class="nav-item"><a class="nav-link" href="checkout.jsp">Product Checkout</a></li>
+									<li class="nav-item"><a class="nav-link" href="cart.jsp">Shopping Cart</a></li>
+									<li class="nav-item"><a class="nav-link" href="confirmation.jsp">Confirmation</a></li>
 								</ul>
 							</li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Kids</a>
 							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.jsp">Contact</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Login / Register</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-									<li class="nav-item"><a class="nav-link" href="tracking.html">Tracking</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+									<li class="nav-item"><a class="nav-link" href="login.jsp">Login</a></li>
+									<li class="nav-item"><a class="nav-link" href="tracking.jsp">Tracking</a></li>
+									<li class="nav-item"><a class="nav-link" href="elements.jsp">Elements</a></li>
 								</ul>
 							</li>
 						</ul>

@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -251,12 +254,12 @@
                                     <img src="img/product/card.jpg" alt="">
                                     <div class="check"></div>
                                 </div>
-                                <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal
+                                <p>Pay via PayPal; you can pay with your credit card if you dont have a PayPal
                                     account.</p>
                             </div>
                             <div class="creat_account">
                                 <input type="checkbox" id="f-option4" name="selector">
-                                <label for="f-option4">I’ve read and accept the </label>
+                                <label for="f-option4">Ive read and accept the </label>
                                 <a href="#">terms & conditions*</a>
                             </div>
                             <a class="primary-btn" href="#">Proceed to Paypal</a>
