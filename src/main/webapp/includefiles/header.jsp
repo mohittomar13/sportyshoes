@@ -7,7 +7,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light main_box">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.jsp">
+					<a class="navbar-brand logo_h" href="HOME">
 						<img src="img/logo.png" width="225" height="70">
 					</a>
 						
@@ -20,27 +20,27 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="category.jsp?ctype=men">Men</a></li>
-							<li class="nav-item active"><a class="nav-link" href="category.jsp?ctype=women">Women</a></li>
+							<li class="nav-item active"><a class="nav-link" href="Category?ctype=men">Men</a></li>
+							<li class="nav-item active"><a class="nav-link" href="Category?ctype=women">Women</a></li>
 							<li class="nav-item submenu dropdown">
-								<a href="category.jsp?ctype=women" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								<a href="Category?ctype=women" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Women.old</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="category.jsp?ctype=all">Shop Category</a></li>
-									<li class="nav-item"><a class="nav-link" href="singleproduct.jsp">Product Details</a></li>
-									<li class="nav-item"><a class="nav-link" href="checkout.jsp">Product Checkout</a></li>
-									<li class="nav-item"><a class="nav-link" href="cart.jsp">Shopping Cart</a></li>
-									<li class="nav-item"><a class="nav-link" href="confirmation.jsp">Confirmation</a></li>
+									<li class="nav-item"><a class="nav-link" href="Category?ctype=all">Shop Category</a></li>
+									<li class="nav-item"><a class="nav-link" href="ProductInfo">Product Details</a></li>
+									<li class="nav-item"><a class="nav-link" href="Checkout">Product Checkout</a></li>
+									<li class="nav-item"><a class="nav-link" href="Cart">Shopping Cart</a></li>
+									<li class="nav-item"><a class="nav-link" href="Confirmation">Confirmation</a></li>
 								</ul>
 							</li>
-							<li class="nav-item active"><a class="nav-link" href="category.jsp?ctype=kids">Kids</a></li>
-							<li class="nav-item"><a class="nav-link" href="contact.jsp">Contact</a></li>
+							<li class="nav-item active"><a class="nav-link" href="Category?ctype=kids">Kids</a></li>
+							<li class="nav-item"><a class="nav-link" href="Contact">Contact</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Login / Register</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="login.jsp">Login</a></li>
-									<li class="nav-item"><a class="nav-link" href="registration.jsp">Register</a></li>
+									<li class="nav-item"><a class="nav-link" href="Login">Login</a></li>
+									<li class="nav-item"><a class="nav-link" href="Registration">Register</a></li>
 								</ul>
 							</li>
 						</ul>

@@ -5790,4 +5790,12 @@ label {
   .footer-text i {
     color: #ffba00; }
 
+.sticky-header::before{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: red;
+	background-color: yellow;
+	content: "Work in progress (Project by Mohit Tomar)";
+}
+
 /*# sourceMappingURL=main.css.map */

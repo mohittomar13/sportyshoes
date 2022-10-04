@@ -261,6 +261,7 @@
 	
 	<%@ include file="../includefiles/footer.jsp" %>
 	<%@ include file="../includefiles/scripttags.jsp" %>
+	<%@ include file="../includefiles/TEST.jsp" %>
 </body>
 
 </html>

@@ -16,8 +16,18 @@
 	<section class="banner-area organic-breadcrumb">
 		<br><br>
 			<div class="container">
-			<% String ctype = request.getParameter("ctype"); %>
+			<% 
+				String ctype = request.getParameter("ctype"); 
+				if(ctype.equals("men")){
+			%>
+				<h1> Shop for <%= ctype %> <i class="fa-solid fa-mars"></i> shoes</h1>
+				<%} else if (ctype.equals("women")){%>
+				<h1> Shop for <%= ctype %> <i class="fa-solid fa-venus"></i> shoes</h1>
+			<% } else if (ctype.equals("kids")){ %>
+				<h1> Shop for <%= ctype %> <i class="fa-solid fa-child-reaching"></i> shoes</h1>
+			<% } else { %>
 				<h1> Shop for <%= ctype %> shoes</h1>
+			<% } %>
 			</div>
 	</section>
 	<!-- End Banner Area -->
