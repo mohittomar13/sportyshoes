@@ -7,21 +7,6 @@
 
 <h3 align="center">SportyShoes</h3>
 
-<div>
-  <p align="center">
-  
-    <br />
-    <a href="https://github.com/mohittomar13/sportyshoes"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://youtu.be/AaIDJSoIDCY">View Demo</a>
-    ·
-    <a href="https://github.com/mohittomar13/sportyshoes/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/mohittomar13/sportyshoes/issues">Request Feature</a>
-  </p>
-</div>
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
