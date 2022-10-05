@@ -5,12 +5,12 @@
 <html lang="zxx" class="no-js">
 
 <head>
-	<%@ include file="../includefiles/headandtitle.jsp" %>
+	<%@ include file="../includefiles/headandtitle.jspf" %>
 </head>
 
 <body id="category">
 
-	<%@ include file="../includefiles/header.jsp" %>
+	<%@ include file="../includefiles/header.jspf" %>
 
 	<!-- Start Banner Area -->
 	<section class="banner-area organic-breadcrumb">
@@ -147,8 +147,8 @@
 	<!-- Main Body End -->
 
 
-	<%@ include file="../includefiles/footer.jsp" %>
-	<%@ include file="../includefiles/scripttags.jsp" %>
+	<%@ include file="../includefiles/footer.jspf" %>
+	<%@ include file="../includefiles/scripttags.jspf" %>
 </body>
 
 </html>

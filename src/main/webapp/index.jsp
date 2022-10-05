@@ -5,11 +5,11 @@
 <html lang="zxx" class="no-js">
 
 <head>
-	<%@ include file="../includefiles/headandtitle.jsp" %>
+	<%@ include file="../includefiles/headandtitle.jspf" %>
 </head>
 
 <body>
-	<%@ include file="../includefiles/header.jsp" %>
+	<%@ include file="../includefiles/header.jspf" %>
 
 	<!-- start banner Area -->
 	<section class="banner-area">
@@ -259,9 +259,8 @@
 				</div>
 			</div>
 	
-	<%@ include file="../includefiles/footer.jsp" %>
-	<%@ include file="../includefiles/scripttags.jsp" %>
-	<%@ include file="../includefiles/TEST.jsp" %>
+	<%@ include file="../includefiles/footer.jspf" %>
+	<%@ include file="../includefiles/scripttags.jspf" %>
 </body>
 
 </html>

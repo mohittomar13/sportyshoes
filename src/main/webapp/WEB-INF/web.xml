@@ -43,7 +43,7 @@
 	
 	<servlet>
 		<servlet-name>Checkout</servlet-name>
-		<jsp-file>/Checkout.jsp</jsp-file>
+		<jsp-file>/checkout.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Checkout</servlet-name>

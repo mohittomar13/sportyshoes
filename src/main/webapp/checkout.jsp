@@ -5,11 +5,11 @@
 <html lang="zxx" class="no-js">
 
 <head>
-    <%@ include file="../includefiles/headandtitle.jsp" %>
+    <%@ include file="../includefiles/headandtitle.jspf" %>
 </head>
 
 <body>
-	<%@ include file="../includefiles/header.jsp" %>
+	<%@ include file="../includefiles/header.jspf" %>
 
     <!-- Start Banner Area -->
     <section class="banner-area organic-breadcrumb">
@@ -18,8 +18,8 @@
                 <div class="col-first">
                     <h1>Checkout</h1>
                     <nav class="d-flex align-items-center">
-                        <a href="index.jsp">Home<span class="lnr lnr-arrow-right"></span></a>
-                        <a href="singleproduct.jsp">Checkout</a>
+                        <a href="index.jspf">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="singleproduct.jspf">Checkout</a>
                     </nav>
                 </div>
             </div>
@@ -178,8 +178,8 @@
     </section>
     <!--================End Checkout Area =================-->
 
-  	<%@ include file="../includefiles/footer.jsp" %>
-	<%@ include file="../includefiles/scripttags.jsp" %>
+  	<%@ include file="../includefiles/footer.jspf" %>
+	<%@ include file="../includefiles/scripttags.jspf" %>
 </body>
 
 </html>

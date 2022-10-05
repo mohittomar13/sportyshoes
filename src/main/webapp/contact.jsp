@@ -5,12 +5,12 @@
 <html lang="zxx" class="no-js">
 
 <head>
-	<%@ include file="../includefiles/headandtitle.jsp" %>
+	<%@ include file="../includefiles/headandtitle.jspf" %>
 </head>
 
 <body>
 
-	<%@ include file="../includefiles/header.jsp" %>
+	<%@ include file="../includefiles/header.jspf" %>
 
 	<!-- Start Banner Area -->
 	<section class="banner-area organic-breadcrumb">
@@ -75,7 +75,7 @@
 	</section>
 	<!--================Contact Area =================-->
 
-	<%@ include file="../includefiles/footer.jsp" %>
+	<%@ include file="../includefiles/footer.jspf" %>
 
 	<!--================Contact Success and Error message Area =================-->
 	<div id="success" class="modal modal-message fade" role="dialog">
@@ -109,7 +109,7 @@
 	</div>
 	<!--================End Contact Success and Error message Area =================-->
 
-	<%@ include file="../includefiles/scripttags.jsp" %>
+	<%@ include file="../includefiles/scripttags.jspf" %>
 </body>
 
 </html>
